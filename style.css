@@ -10,7 +10,7 @@
   font-family: "Courier New", Courier, monospace;
   max-height: 100vh;
   font-weight: 800;
-  overflow: hidden;
+
   cursor: pointer;
   gap: 10px;
 }
