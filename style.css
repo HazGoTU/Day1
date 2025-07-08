@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  font-family: "Courier New", Courier, monospace;
+  max-height: 100vh;
+  font-weight: 800;
+  overflow: hidden;
+  cursor: pointer;
+  gap: 10px;
+}
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  padding: 0;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
+}
+.download :hover {
+  background-color: tomato;
+  color: white;
+}
+.download a {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.Text {
+  font-style: bold;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 30% 20px 35%;
+  word-break: break-all;
+  word-spacing: 1px;
+  gap: 20px;
+  padding: 0;
+}
+.Text p {
+  margin: 0;
+}
+.Text h1 {
+  margin: 0;
+}
+.Text img {
+  width: 15px;
+  height: 15px;
+}
+
+.contact {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: black;
+  color: white;
+}
+.contact:hover {
+  background-color: tomato;
+  color: black;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+.Social {
+  display: flex;
+  gap: 5px;
+}
+.Social :hover {
+  background-color: tomato;
+  zoom: 1.1;
+  border-radius: 50%;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid rgb(192, 184, 184);
+  gap: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-weight: 700;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.imgProfile {
+  display: flex;
+  border-radius: auto;
+  position: relative;
+  width: 300px;
+  height: 350px;
+}
