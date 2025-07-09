@@ -1,6 +1,27 @@
 * {
   margin: 0;
 }
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer {
+  width: max-content;
+  height: 30px;
+  display: flex;
+  gap: 10px;
+  margin: 0px 0 20px 0;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+button {
+  width: max-content;
+  height: max-content;
+  border-radius: 50px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -8,11 +29,15 @@
   align-items: center;
   margin: 15px;
   font-family: "Courier New", Courier, monospace;
-  max-height: 100vh;
+  height: 800px;
   font-weight: 800;
-
+  width: 1020px;
+  border: 1px solid rgb(192, 184, 184);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   gap: 10px;
+  position: absolute;
 }
 .download {
   display: flex;
@@ -34,20 +59,22 @@
   flex-direction: row;
   padding: 0;
 }
+
 .Text {
   font-style: bold;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin: 0 30% 20px 35%;
-  word-break: break-all;
+  justify-content: center;
+  margin: 0 16em 0 16em;
   word-spacing: 1px;
-  gap: 20px;
+  gap: 10px;
   padding: 0;
 }
-.Text p {
+.Text .description {
   margin: 0;
+  width: 490px;
 }
 .Text h1 {
   margin: 0;
@@ -56,10 +83,15 @@
   width: 15px;
   height: 15px;
 }
+.container2 {
+  display: flex;
+  flex-direction: column;
 
+  gap: 15px;
+}
 .contact {
-  width: 120px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -80,6 +112,7 @@ img {
   height: 24px;
 }
 .Social {
+  transform: translate(95%, 20%);
   display: flex;
   gap: 5px;
 }
@@ -115,6 +148,6 @@ img {
   display: flex;
   border-radius: auto;
   position: relative;
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
 }
